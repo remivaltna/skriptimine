@@ -24,3 +24,12 @@ git remote add skriptimine https://github.com/remivaltna/skriptimine.git
 b) git remote kontroll
 git remote -v
 
+põhikasutamine:
+a)pane fail jälgimisele
+git add failinimi
+
+b)lisa kirjeldused muudatuste kohta
+git vommit -m "lühikirjelduse lause"
+
+c)lisa kaugrepositooriumi
+hit push -uf skriptimine master
