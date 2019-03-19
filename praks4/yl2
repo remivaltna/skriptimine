@@ -11,10 +11,10 @@ echo "palun sisestage kihtide arv"
 read kihiarv
 echo "palun sisestage küpsiste arv pakis"
 read pakis
-kandik='expr $k_pikkus \*$k_laius'
-kypsis='expr $ky_pikkus \*ky_laius'
-pakke='expr $kihiarv \* $kihis'
-pakke2='expr $pakke \/ 4pakis
+kandik=`expr $k_pikkus \*$k_laius`
+kypsis=`expr $ky_pikkus \*ky_laius`
+pakke=`expr $kihiarv \* $kihis`
+pakke2=`expr $pakke \/ 4pakis`
 echo "tuleb osta $pakke2 pakki küpsist"
 #
 #lõpp
