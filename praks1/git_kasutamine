@@ -29,7 +29,7 @@ a)pane fail jälgimisele
 git add failinimi
 
 b)lisa kirjeldused muudatuste kohta
-git vommit -m "lühikirjelduse lause"
+git commit -m "lühikirjelduse lause"
 
 c)lisa kaugrepositooriumi
-hit push -uf skriptimine master
+git push -uf skriptimine master
