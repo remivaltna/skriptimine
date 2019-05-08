@@ -40,5 +40,5 @@ then
 	echo "on detsember"
 else
 	echo "vigane sisend"
-#
+fi
 #lõpp
