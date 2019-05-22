@@ -1,0 +1,18 @@
+#!/bin/bash
+echo -n "sisestage ridade arv: "
+read arv
+for(( r=1; r<=arv; r++))
+do
+echo -n "$r. "
+  for(( v=1;  v<=($arv-$r); v++ ))
+  do
+   echo -n "o "
+  done
+  for(( v=1; v<=$r; v++ ))
+  do
+   echo -n "* "
+  done
+  echo
+done
+#
+
