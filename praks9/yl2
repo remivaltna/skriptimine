@@ -1,5 +1,4 @@
 #!/bin/bash  
-#
 #yl2
 read -p "sisesta ridade arv: " 
 read rida
