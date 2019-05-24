@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+#aastaaegade ülesanne
+#
+read -p "palun sisesta kuu " kuu
+if test $kuu -ge 1 -a $kuu -lt 2
+then 
+	echo "Praegu on talv "
+elif test $kuu -ge 3 -a $kuu -lt 5
+then 
+	echo "praegu on kevad"
+elif test $kuu -ge 6 -a $kuu -lt 8
+then 
+	echo "praegu on suvi"
+elif test $kuu -ge 9 -a $kuu -lt 11
+then 
+	echo "praegu on sügis"
+fi
