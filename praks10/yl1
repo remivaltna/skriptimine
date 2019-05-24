@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+#vanuse skript
+#
+read -p "palun sisesta siia oma vanus: " vanus
+if test $vanus -gt 0 -a $vanus -lt 11
+then
+	echo "saoled laps"
+elif test $vanus -ge 11 -a $vanus -lt 18
+then 
+	echo "sa oled nooruk"
+elif test $vanus -ge 18 -a vanus -lt 30
+then 
+	echo "sa oled täiskasvanu"
+elif $vanus -ge 63
+then 
+	echo "sa oled senioor"
+else
+	echo "vigane sisend" 
+fi
